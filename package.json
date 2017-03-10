@@ -1,0 +1,21 @@
+{
+  "name": "apiassignment",
+  "version": "1.0.0",
+  "description": "Develop a node-based API for data persistence",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "bila-fwamba"
+  },
+  "author": "Bila Fwamba",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "mongodb": "^2.2.24",
+    "shortid": "^2.2.6"
+  }
+}
