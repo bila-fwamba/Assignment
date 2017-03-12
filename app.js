@@ -1,5 +1,6 @@
 var express = require('express');
 var bodyParser = require('body-parser');
+var helmet = require('helmet');
 //var mLab = require ('mongolab-data-api')('us8zsahBeSdGKNcVuPmJ1lm9X7dY76y');
 //create an express app
 var app = express();
@@ -7,6 +8,7 @@ var app = express();
 var config = require('./config');
 //configure the express app to parse JSON-formatted body
 app.use(bodyParser.json());
+app.use(helmet());
 
 //add route for the root
 app.get('/',function (request, response) {
